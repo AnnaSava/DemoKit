@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>SavaDev.DemoKit.ConsoleWorker</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Anna Savina</Authors>
+
+    <Description>
+      Lightweight console demo worker that exposes multiple execution modes for process and cancellation scenarios.
+    </Description>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageProjectUrl>https://github.com/AnnaSava/DemoKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AnnaSava/DemoKit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <PackageTags>
+      demo;console;worker;process;scenarios
+    </PackageTags>
+
+    <PackageLicenseFile>LICENCE</PackageLicenseFile>
+
+    <IsPackable>true</IsPackable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENCE" Pack="true" PackagePath="" Visible="false" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
