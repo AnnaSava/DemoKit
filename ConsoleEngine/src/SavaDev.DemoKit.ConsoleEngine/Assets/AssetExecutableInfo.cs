@@ -2,7 +2,7 @@ namespace SavaDev.DemoKit.ConsoleEngine.Assets;
 
 /// <summary>
 /// Represents metadata required to resolve the executable
-/// of an external asset used by a console demo.
+/// of an external asset used by a console demo
 /// </summary>
 /// <remarks>
 /// This type groups together asset-related parameters that describe
